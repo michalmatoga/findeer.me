@@ -31,10 +31,10 @@ h1 {
 footer {
     text-align: center;
     color: #777;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .position {
-    text-align: justify;
+    text-align: left;
 }
 
 a {
@@ -46,17 +46,18 @@ a:hover {
 }
 
 .btn {
-  	background: #020202;
-  	color: #fefefe;
- 	padding: 10px;
-	display: inline-block;
-	font-size: 16px;
-	border-radius: 2px;
-	transition: background .15s ease-in-out;
-	-webkit-transition: background .15s ease-in-out;
+    color: #646464;
+    padding: 10px;
+    font-size: 12px;
 }
 
 .btn:hover {
-	background: #333;
-  	color: #fefefe;
+  	color: #333;
+}
+.text-left {
+    text-align: left;
+}
+.links {
+    margin-top: 30px;
+    font-size: 12px;
 }
