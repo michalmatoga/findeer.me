@@ -33,3 +33,14 @@ footer {
     color: #777;
     margin-top: 50px;
 }
+.position {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: #0064FF;
+}
