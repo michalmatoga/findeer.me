@@ -61,3 +61,7 @@ a:hover {
     margin-top: 30px;
     font-size: 12px;
 }
+.testimonials img {
+    display: inline-block;
+    margin-left: 50px;
+}
