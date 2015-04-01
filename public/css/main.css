@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 #content {
+    padding-top: 40px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -26,9 +27,6 @@ h1 {
 .flip-clock-dot {
     background-color: 000;
     box-shadow: none;
-}
-.flip-clock-label {
-    display: none;
 }
 footer {
     text-align: center;
