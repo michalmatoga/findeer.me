@@ -8,6 +8,9 @@ body {
     margin-right: auto;
     text-align: center;
 }
+#content.content-fluid {
+    width: 100%;
+}
 #countdown {
     display: inline-block;
     width: auto
@@ -65,3 +68,4 @@ a:hover {
     display: inline-block;
     margin-left: 50px;
 }
+
