@@ -1,7 +1,5 @@
-var clock = $("#countdown").FlipClock({
-    "countdown": true,
-});
-var start = new Date().getTime() / 1000, stop = new Date("2015-04-03 17:00:00").getTime() / 1000;
-
+var clock = $("#countdown").FlipClock();
+var start = parseInt(new Date().getTime() / 1000), stop = parseInt(new Date(2015,3,3,17).getTime() / 1000);
 clock.setTime(stop - start);
+clock.setCountdown(true);
 clock.start();
