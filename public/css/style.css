@@ -1123,3 +1123,23 @@ footer {
     text-align: center;
     color: #fff;
 }
+.container.static {
+    background-color: #fff;
+    padding: 30px;
+}
+.container.static .testimonials {
+    text-align: center;
+    padding-top: 20px;
+}
+.top {
+    position: relative;
+    color: #fff;
+    text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+    cursor: default;
+}
+.top img {
+    height: 150px;
+}
