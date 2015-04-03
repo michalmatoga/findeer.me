@@ -1143,3 +1143,7 @@ footer {
 .top img {
     height: 150px;
 }
+.credits img {
+    position: relative;
+    top: 5px;
+}
